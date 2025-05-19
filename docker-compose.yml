@@ -1,0 +1,28 @@
+version: '3.9'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+    environment:
+      - DB_NAME=pybo_db
+      - DB_USER=pybo_user
+      - DB_PASSWORD=pybo_pass
+      - DB_HOST=db
+
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: pybo_db
+      POSTGRES_USER: pybo_user
+      POSTGRES_PASSWORD: pybo_pass
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
