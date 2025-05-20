@@ -525,4 +525,32 @@ web-1  | [15/May/2025 12:39:03] "GET /favicon.ico HTTP/1.1" 404 2663
 
 ---
 
-##
+## 결과 화면 1
+
+- **docker compose up —build**
+
+![image.png](image.png)
+
+## 결과 화면 2
+
+- [web] [db] 작동 로그 화면
+
+![image.png](image%201.png)
+
+## 결과 화면 3
+
+- [web] [db] 작동 로그 화면
+
+![image.png](image%202.png)
+
+## 결과 화면 4
+
+- [web] 작동 로그 화면
+
+![image.png](image%203.png)
+
+## 결과 화면 5
+
+- 로컬호스트 운영 화면
+
+![image.png](image%204.png)
