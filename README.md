@@ -978,7 +978,7 @@ web-1  | [15/May/2025 12:39:03] "GET /favicon.ico HTTP/1.1" 404 2663
 ![image.png](image%204.png)
 
 
-# 하드웨어를 가상화하는 Hypervisor와 운영체제를 가상화하는 Docker
+# 하드웨어를 가상화하는 Hypervisor
 
 ## 🧠 Hypervisor란?
 
